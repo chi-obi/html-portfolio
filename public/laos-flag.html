@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+   
+   /* RED RECTANGLE */
+   .flag {
+    height: 600px;
+    width: 900px;
+    background-color: rgb(206, 17, 38);
+    color: white;
+    position: relative;
+   }
+   /* BLUE RECTANGLE */
+   .flag > div {
+    width: 900px;
+    height: 300px;
+    background-color: rgb(0, 40, 104);
+    position: absolute;
+    top: 150px;
+   }
+   
+   /* WHITE CIRCLE */
+   .flag > div > div {
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 350px
+   }
+
+   /* THE FLAG TEXT */
+   p {
+    font-size: 5rem;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+   }
+   
+   /* OF LAOS TEXT */
+   .flag div div p {
+    color: black;
+   }
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
